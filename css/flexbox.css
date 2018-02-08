@@ -1,0 +1,70 @@
+.flex_box1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.promo {
+    display: flex;
+
+}
+
+.services{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+.services_text, .services_info {
+    display: flex;
+    flex: 1;
+}
+
+.services_text {
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.gallery_filter {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery_photo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.email_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.feedback_left, .feedback_right {
+    flex: 1 1 ;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.copyright_text, .right {
+    flex: 1 1;
+}
